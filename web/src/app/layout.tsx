@@ -1,8 +1,13 @@
 import type { Metadata } from 'next'
-import { Roboto_Flex as Roboto } from 'next/font/google'
+import { Roboto_Flex as Roboto, Kanit } from 'next/font/google'
 import './globals.css'
 
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
+const kanit = Kanit({
+    subsets: ['latin'],
+    weight:'500',
+    variable: '--font-kanit',
+ });
 
 export const metadata: Metadata = {
   title: 'Bem vinda(o)!',
@@ -16,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} font-sans`}>{children}</body>
+      <body className={`${roboto.variable} ${kanit.variable} font-sans`}>{children}</body>
     </html>
   )
 }

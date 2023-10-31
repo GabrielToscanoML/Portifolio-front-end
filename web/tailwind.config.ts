@@ -10,7 +10,12 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: 'var(--font-roboto)',
-      }
+        alt: 'var(--font-kanit)',
+      },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '16': '4rem',
+      },
     },
   },
   plugins: [],
