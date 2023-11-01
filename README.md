@@ -4,10 +4,7 @@
 
 Para rodar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, me envie um email em: gabrieltoscano1@outlook.com :rocket:
 
-<details>
-  <summary>
-    <strong>Para executar o projeto:</strong>
-  </summary><br>
+<strong>Para executar o projeto:</strong>
 
   1. Clone o repositório
 
