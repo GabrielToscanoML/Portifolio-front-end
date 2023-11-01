@@ -12,7 +12,8 @@ Para rodar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualq
 
 - Use o comando: `git clone git@github.com:GabrielToscanoML/PortifolioFull-Stack.git`.
 - Entre na pasta do repositório que você acabou de clonar:
-  - `PortifolioFull-Stack`
+  - `cd PortifolioFull-Stack`
+
 
   2. Instale as dependências
 
