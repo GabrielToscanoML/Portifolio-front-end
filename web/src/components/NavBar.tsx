@@ -12,9 +12,8 @@ export function NavBar() {
                 <ul className="flex gap-x-4 items-center text-lg">
                     <a href="#home"><li className="border-[#666BF6] hover:border-b-2">Início</li></a>
                     <a href="#aboutme"><li className="border-[#666BF6] hover:border-b-2">Sobre Mim</li></a>
-                    
-                    <li className="border-[#666BF6] hover:border-b-2"><a href="#contact">Contatos</a></li>
-                    <li className="border-[#666BF6] hover:border-b-2"><a href="#projects">Projetos</a></li>
+                    <a href="#projects"><li className="border-[#666BF6] hover:border-b-2">Projetos</li></a>
+                    <a href="#contact"><li className="border-[#666BF6] hover:border-b-2">Contatos</li></a>
                     |
                     <a
                         href="https://github.com/gabrieltoscanoml"

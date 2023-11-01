@@ -16,6 +16,9 @@ const config: Config = {
         'extra-loose': '2.5',
         '16': '4rem',
       },
+      padding: {
+        '160': '160px',
+      },
     },
   },
   plugins: [],
