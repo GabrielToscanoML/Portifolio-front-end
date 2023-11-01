@@ -1,5 +1,7 @@
 # Boas vindas ao meu repositório do projeto Portfolio Full-Stack!
 
+![Portfolio](https://github.com/GabrielToscanoML/PortifolioFull-Stack/assets/68169956/352023ab-3c44-4ef6-ac06-a6487720a3a3)
+
 :construction: Este projeto ainda está em desenvolvimento! :construction:
 
 Para rodar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, me envie um email em: gabrieltoscano1@outlook.com :rocket:
