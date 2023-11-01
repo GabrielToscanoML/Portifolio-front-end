@@ -15,15 +15,15 @@ Para rodar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualq
   - `cd PortifolioFull-Stack`
 
 
-  2. Instale as dependências
+2. Instale as dependências
 
 - Para isso, use o seguinte comando: `npm install`
 
-  3. Entre na pasta web
+3. Entre na pasta web
 
 - Para isso, navegue entre as pastas usando o seu terminal com: `cd web`
 
- 4. Execute a aplicação React.
+4. Execute a aplicação React.
 
 - Para isso, use o seguinte comando: `npm run dev`
 
