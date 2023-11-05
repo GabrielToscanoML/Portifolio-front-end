@@ -1,0 +1,30 @@
+Projetos que irão para o portfolio:
+
+// Fundamentos (6)
+Pixels Art - https://github.com/GabrielToscanoML/PixelsArt ✅
+Trybe Warts - https://github.com/GabrielToscanoML/TrybeWarts ✅
+To Do List - https://github.com/GabrielToscanoML/ToDoList ✅
+Carta Misteriosa - https://github.com/GabrielToscanoML/CartaMisteriosa ✅
+Color Guess - https://github.com/GabrielToscanoML/ColorGuess ✅
+Pokedex Simples - https://github.com/GabrielToscanoML/Pokedex-Simples ✅
+
+// Front-End (11)
+Solar System - https://github.com/GabrielToscanoML/SolarSystem ✅
+Tryunfo - https://github.com/GabrielToscanoML/Tryunfo ✅
+Trybe Wallet - https://github.com/GabrielToscanoML/TrybeWallet
+Trybe Tunes - https://github.com/GabrielToscanoML/TrybeTunes
+Trivia React - https://github.com/GabrielToscanoML/TriviaReact
+StarWars Planet Search - https://github.com/GabrielToscanoML/StarWarsPlanetSearch
+Recipes App - https://github.com/GabrielToscanoML/RecipesApp
+Online Store - https://github.com/GabrielToscanoML/OnlineStore
+Ecommerce - https://github.com/GabrielToscanoML/Ecommerce
+Angular Blog - https://github.com/GabrielToscanoML/angular-blog
+Psn Store - https://github.com/GabrielToscanoML/pns-store
+
+// Back-End (5)
+
+Soccer Team Manager - https://github.com/GabrielToscanoML/soccer-team-manager
+Talker Manager - https://github.com/GabrielToscanoML/TalkerManager
+Store Manager - https://github.com/GabrielToscanoML/StoreManager
+Trybe Futebol Clube - https://github.com/GabrielToscanoML/TrybeFutebolClube
+CarShop - https://github.com/GabrielToscanoML/CarShop
