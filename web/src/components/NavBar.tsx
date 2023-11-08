@@ -4,7 +4,7 @@ import linkedinSvg from "../assets/linkedin-30.svg";
 
 export function NavBar() {
     return(
-        <header className="flex justify-between items-center h-24 max-w-7xl m-auto px-8">
+        <header className="flex justify-between items-center h-24 max-w-7xl m-auto px-8 ">
             <div className="font-bold text-2xl">
                 Toscano
             </div>

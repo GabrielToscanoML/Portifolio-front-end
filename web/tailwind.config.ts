@@ -19,6 +19,9 @@ const config: Config = {
       padding: {
         '160': '160px',
       },
+      height: {
+        '600': '600px',
+      }
     },
   },
   plugins: [],

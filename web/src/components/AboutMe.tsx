@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Image from "next/image";
 
-import { hardSkills, Learning } from '@/utils/mockInfo';
+import { hardSkills, Learning } from '@/utils/hardSkillsMock';
 
 export function AboutMe() {
     const [hardSkillsInfo, setHardSkills] = useState(hardSkills);
