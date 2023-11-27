@@ -18,7 +18,7 @@ Trybe Tunes - https://github.com/GabrielToscanoML/TrybeTunes ✅
 Online Store - https://github.com/GabrielToscanoML/OnlineStore ✅
 Trivia React - https://github.com/GabrielToscanoML/TriviaReact
 Recipes App - https://github.com/GabrielToscanoML/RecipesApp
-StarWars Planet Search - https://github.com/GabrielToscanoML/StarWarsPlanetSearch
+StarWars Planet Search - https://github.com/GabrielToscanoML/StarWarsPlanetSearch (esse vou ver se mexo nele)
 
 // Angular
 Angular Blog - https://github.com/GabrielToscanoML/angular-blog
