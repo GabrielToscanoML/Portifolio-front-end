@@ -16,7 +16,7 @@ Tryunfo - https://github.com/GabrielToscanoML/Tryunfo ✅
 Trybe Wallet - https://github.com/GabrielToscanoML/TrybeWallet ✅
 Trybe Tunes - https://github.com/GabrielToscanoML/TrybeTunes ✅
 Online Store - https://github.com/GabrielToscanoML/OnlineStore ✅
-Trivia React - https://github.com/GabrielToscanoML/TriviaReact
+Trivia React - https://github.com/GabrielToscanoML/TriviaReact ✅
 Recipes App - https://github.com/GabrielToscanoML/RecipesApp
 StarWars Planet Search - https://github.com/GabrielToscanoML/StarWarsPlanetSearch (esse vou ver se mexo nele)
 
