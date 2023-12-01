@@ -5,7 +5,7 @@ import Image from "next/image";
 export function ProjectsCard(props: Project) {
     return(
         <main className="shadow-lg w-96 h-600 rounded-xl bg-[#F7EFE5]">
-            <h1 className="text-4xl font-alt m-4">{props.title}</h1>
+            <h1 className="text-3xl font-alt m-4">{props.title}</h1>
             <section className="flex justify-evenly mb-2">
                 {
                     props.hardSkills.map((tech: HardSkills) => {
