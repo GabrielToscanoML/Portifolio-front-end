@@ -8,19 +8,18 @@ Carta Misteriosa - https://github.com/GabrielToscanoML/CartaMisteriosa ✅
 Color Guess - https://github.com/GabrielToscanoML/ColorGuess ✅
 Pokedex Simples - https://github.com/GabrielToscanoML/Pokedex-Simples ✅
 
-// Front-End (11)
+// Front-End (9)
 
-// React
+// React (7)
 Solar System - https://github.com/GabrielToscanoML/SolarSystem ✅
 Tryunfo - https://github.com/GabrielToscanoML/Tryunfo ✅
 Trybe Wallet - https://github.com/GabrielToscanoML/TrybeWallet ✅
-Trybe Tunes - https://github.com/GabrielToscanoML/TrybeTunes ✅
+Trybe Tunes - https://github.com/GabrielToscanoML/toscano-tunes ✅
 Online Store - https://github.com/GabrielToscanoML/OnlineStore ✅
 Trivia React - https://github.com/GabrielToscanoML/TriviaReact ✅
 Recipes App - https://github.com/GabrielToscanoML/RecipesApp ✅
-StarWars Planet Search - https://github.com/GabrielToscanoML/StarWarsPlanetSearch (esse vou ver se mexo nele)
 
-// Angular
+// Angular (2)
 Angular Blog - https://github.com/GabrielToscanoML/angular-blog
 Psn Store - https://github.com/GabrielToscanoML/pns-store
 
