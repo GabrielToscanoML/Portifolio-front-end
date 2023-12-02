@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
     <div className="sticky top-0 bg-white">
-      <NavBar />
+      {/* <NavBar /> */}
       <hr />
     </div>
       <Header />
