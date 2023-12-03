@@ -7,9 +7,10 @@ export default function Home() {
   return (
     <>
     <div className="sticky top-0 bg-white">
-      {/* <NavBar /> */}
+      <NavBar />
       <hr />
     </div>
+    <p className="text-center mb-4 font-alt ">🚧 Projeto ainda em desenvolvimento!! 🚧</p>
       <Header />
       <AboutMe />
       <hr />
