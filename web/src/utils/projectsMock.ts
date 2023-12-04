@@ -84,7 +84,7 @@ export const frontEndProjects:Array<Project> =[
         category: 'Front-End',
         imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/projectsThumbs/TrybeTunes.jpg?raw=true',
         hardSkills: frontEntNextJS,
-        // deploy: 'https://gabrieltoscanoml.github.io/PixelsArt/',
+        deploy: 'https://toscano-tunes.vercel.app/',
     },
     {
         id: 1,
