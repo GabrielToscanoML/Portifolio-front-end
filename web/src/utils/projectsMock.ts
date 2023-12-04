@@ -104,7 +104,7 @@ export const frontEndProjects:Array<Project> =[
         category: 'Front-End',
         imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/projectsThumbs/Trivia.jpg?raw=true',
         hardSkills: frontEndReact,
-        // deploy: 'https://gabrieltoscanoml.github.io/PixelsArt/',
+        deploy: 'https://trivia-toscano.vercel.app/',
     },
     {
         id: 3,
