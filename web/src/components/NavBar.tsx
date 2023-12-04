@@ -14,8 +14,8 @@ export function NavBar() {
             <ul className="flex gap-x-4 items-center text-lg font-medium mx-auto sm:mx-0">
                 <a href="#home"><li className="border-[#666BF6] hover:border-b-2">Início</li></a>
                 <a href="#aboutme"><li className="border-[#666BF6] hover:border-b-2">Sobre Mim</li></a>
+                <a href="#home"><li className="border-[#666BF6] hover:border-b-2">Contatos</li></a>
                 <a href="#projects"><li className="border-[#666BF6] hover:border-b-2">Projetos</li></a>
-                <a href="#contact"><li className="border-[#666BF6] hover:border-b-2">Contatos</li></a>
                 <section className="hidden sm:block sm:flex sm:gap-4">
                     |
                     <a
