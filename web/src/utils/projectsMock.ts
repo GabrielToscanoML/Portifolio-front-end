@@ -134,7 +134,7 @@ export const frontEndProjects:Array<Project> =[
         category: 'Front-End',
         imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/projectsThumbs/SolarSystem.jpg?raw=true',
         hardSkills: frontEndReact,
-        // deploy: 'https://gabrieltoscanoml.github.io/PixelsArt/',
+        deploy: 'https://solar-system-toscano.vercel.app/',
     },
     {
         id: 6,
