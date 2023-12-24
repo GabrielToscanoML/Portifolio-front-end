@@ -114,7 +114,7 @@ export const frontEndProjects:Array<Project> =[
         category: 'Front-End',
         imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/projectsThumbs/RecipesApp.jpg?raw=true',
         hardSkills: frontEndReact,
-        // deploy: 'https://gabrieltoscanoml.github.io/PixelsArt/',
+        deploy: 'https://toscano-recipes-app.vercel.app/',
     },
     {
         id: 4,
