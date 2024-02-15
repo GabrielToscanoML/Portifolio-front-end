@@ -10,7 +10,6 @@ export default function Home() {
       <NavBar />
       <hr />
     </div>
-    <p className="text-center mb-4 font-alt ">🚧 Projeto ainda em desenvolvimento!! 🚧</p>
       <Header />
       <AboutMe />
       <hr />
