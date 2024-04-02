@@ -1,30 +1,18 @@
-# Boas vindas ao meu repositório do projeto Portfolio Full-Stack!
+# Boas vindas ao projeto do meu Portfolio!
 
 ![Portfolio](https://github.com/GabrielToscanoML/PortifolioFull-Stack/assets/68169956/352023ab-3c44-4ef6-ac06-a6487720a3a3)
 
-:construction: Este projeto ainda está em desenvolvimento! :construction:
+Portfolio desenvolvido para apresentar um pouco sobre mim, as tecnologias que venho utilizando e aprendendo, projetos que desenvolvi e mais.
 
-Para rodar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, me envie um email em: gabrieltoscano1@outlook.com :rocket:
+Você pode visitar meu Portfolio pelo link: https://toscano.vercel.app/
 
-<strong>Para executar o projeto:</strong>
+Este projeto foi desenvolvido utilizando tecnologias como:
+- React
+- NextJS
+- Typescript
+- TailwindCSS
+- Node na versão 20
 
-  1. Clone o repositório
-
-- Use o comando: `git clone git@github.com:GabrielToscanoML/Portifolio-front-end.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `cd Portifolio-front-end`
-
-
-2. Instale as dependências
-
-- Para isso, use o seguinte comando: `npm install`
-
-3. Entre na pasta web
-
-- Para isso, navegue entre as pastas usando o seu terminal com: `cd web`
-
-4. Execute a aplicação React.
-
-- Para isso, use o seguinte comando: `npm run dev`
-
-  Agora basta abrir a página : `http://localhost:3000` em seu navegador :rocket:
+Caso tenha alguma dúvida, entre em contato comigo:
+- ✉️ Email: gabrieltoscano1@outlook.com
+- 🔗 Linkedin: https://www.linkedin.com/in/gabrieltoscanoml/
