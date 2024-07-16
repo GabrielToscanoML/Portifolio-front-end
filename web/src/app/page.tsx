@@ -7,25 +7,15 @@ import { ProjectsSession } from "@/components/ProjectsSession";
 import { useEffect, useState } from "react";
 import Modal from "react-modal";
 
-// const customStyles = {
-//   content: {
-//     top: '50%',
-//     left: '50%',
-//     right: 'auto',
-//     bottom: 'auto',  
-//     marginRight: '-50%',
-//     transform: 'translate(-50%, -50%)',
-//     width: '200px',
-//   },
-// };
-
 export default function Home() {
 
   const [modalIsOpen, setIsOpen] = useState(false);
 
-  if (navigator.userAgent.match(/Instagram/i)) {
-    alert("Para a melhor experiência, abra este link no seu navegador padrão.");
-  }
+  useEffect(() => {
+    if (navigator.userAgent.match(/Instagram/i)) {
+      alert("Para a melhor experiência, abra este link no seu navegador padrão.");
+    }
+  }, []);
 
   function openModal() {
     setIsOpen(false);
@@ -44,7 +34,6 @@ export default function Home() {
       <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
-          // style={customStyles}
           contentLabel="Example Modal"
           className="flex mx-auto mt-48 justify-center items-center w-64 h-32"
         >
