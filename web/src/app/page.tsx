@@ -23,6 +23,10 @@ export default function Home() {
 
   const [modalIsOpen, setIsOpen] = useState(false);
 
+  if (navigator.userAgent.match(/Instagram/i)) {
+    alert("Para a melhor experiência, abra este link no seu navegador padrão.");
+  }
+
   function openModal() {
     setIsOpen(true);
   }
