@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { AboutMe } from "@/components/AboutMe";
 import { Header } from "@/components/Header";
@@ -8,26 +8,17 @@ import { useEffect, useState } from "react";
 import Modal from "react-modal";
 
 export default function Home() {
-
   const [modalIsOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
-      alert("Para a melhor experiência, abra este link no seu navegador padrão.");
+      setIsOpen(true);
     }
   }, []);
-
-  function openModal() {
-    setIsOpen(false);
-  }
 
   function closeModal() {
     setIsOpen(false);
   }
-
-  useEffect(() => {
-    openModal();
-  }, [])
 
   return (
     <>  
@@ -41,10 +32,11 @@ export default function Home() {
             href="https://toscano.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
+            download
             className="bg-black text-white p-4 rounded"
             >
               Abrir no navegador
-            </a>
+          </a>
       </Modal>
       <div className="sticky top-0 bg-white">
         <NavBar />
@@ -55,5 +47,5 @@ export default function Home() {
       <hr />
       <ProjectsSession />
     </>
-  )
+  );
 }
