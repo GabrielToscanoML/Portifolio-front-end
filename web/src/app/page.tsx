@@ -28,7 +28,7 @@ export default function Home() {
   }
 
   function openModal() {
-    setIsOpen(true);
+    setIsOpen(false);
   }
 
   function closeModal() {
