@@ -7,14 +7,16 @@ import { ProjectsSession } from "@/components/ProjectsSession";
 import { useEffect, useState } from "react";
 import Modal from "react-modal";
 
-export default function Home() {
-  const [modalIsOpen, setIsOpen] = useState(false);
+// import webImage from "../public/web-development.png";
 
-  useEffect(() => {
-    if (navigator.userAgent.match(/Instagram/i)) {
-      setIsOpen(true);
-    }
-  }, []);
+export default function Home() {
+  const [modalIsOpen, setIsOpen] = useState(true);
+
+  // useEffect(() => {
+  //   if (navigator.userAgent.match(/Instagram/i)) {
+  //     setIsOpen(true);
+  //   }
+  // }, []);
 
   function closeModal() {
     setIsOpen(false);
@@ -29,7 +31,7 @@ export default function Home() {
           className="flex mx-auto mt-48 justify-center items-center w-64 h-32"
         >
           <a 
-            href="https://toscano.vercel.app/"
+            href="/web-development.png"
             target="_blank"
             rel="noopener noreferrer"
             download
