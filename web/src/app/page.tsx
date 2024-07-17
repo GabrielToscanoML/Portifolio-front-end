@@ -10,7 +10,7 @@ import Modal from "react-modal";
 // import webImage from "../public/web-development.png";
 
 export default function Home() {
-  const [modalIsOpen, setIsOpen] = useState(true);
+  const [modalIsOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
