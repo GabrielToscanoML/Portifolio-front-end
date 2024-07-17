@@ -26,28 +26,29 @@ export default function Home() {
 
   return (
     <>  
-      <Modal
-          isOpen={modalIsOpen}
-          onRequestClose={closeModal}
-          contentLabel="Example Modal"
-          className="flex mx-auto mt-48 justify-center items-center w-64 h-32"
-        >
-          {/* <a 
-            href="/download"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-black text-white p-4 rounded"
-            >
-              Abrir no navegador
-          </a> */}
-          <button 
-            type="submit"
-            className="bg-red-300 text-white p-4 rounded"
-            onSubmit={() => router.push("/")}
-            >
-              Abrir no navegador
-          </button>
-      </Modal>
+      <form onSubmit={() => router.push("/")}>
+        <Modal
+            isOpen={modalIsOpen}
+            onRequestClose={closeModal}
+            contentLabel="Example Modal"
+            className="flex mx-auto mt-48 justify-center items-center w-64 h-32"
+          >
+            {/* <a 
+              href="/download"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-black text-white p-4 rounded"
+              >
+                Abrir no navegador
+            </a> */}
+            <button 
+              type="submit"
+              className="bg-red-300 text-white p-4 rounded"
+              >
+                Abrir no navegador
+            </button>
+        </Modal>
+      </form>
       <div className="sticky top-0 bg-white">
         <NavBar />
         <hr />
