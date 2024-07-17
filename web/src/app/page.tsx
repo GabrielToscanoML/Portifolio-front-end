@@ -31,7 +31,7 @@ export default function Home() {
           className="flex mx-auto mt-48 justify-center items-center w-64 h-32"
         >
           <a 
-            href="/download"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             // download
