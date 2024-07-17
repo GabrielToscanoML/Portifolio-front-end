@@ -35,7 +35,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             // download
-            className="bg-black text-white p-4 rounded"
+            className="bg-red-400 text-white p-4 rounded"
             >
               Abrir no navegador
           </a>
