@@ -10,7 +10,7 @@ import Modal from "react-modal";
 // import webImage from "../public/web-development.png";
 
 export default function Home() {
-  const [modalIsOpen, setIsOpen] = useState(false);
+  const [modalIsOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
@@ -31,10 +31,10 @@ export default function Home() {
           className="flex mx-auto mt-48 justify-center items-center w-64 h-32"
         >
           <a 
-            href="/web-development.png"
+            href="/download"
             target="_blank"
             rel="noopener noreferrer"
-            download
+            // download
             className="bg-black text-white p-4 rounded"
             >
               Abrir no navegador
