@@ -16,7 +16,9 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    setIsOpen(true)
+    if (navigator.userAgent.match(/Instagram/i)) {
+      setIsOpen(true);
+    }
   }, []);
 
   function closeModal() {
