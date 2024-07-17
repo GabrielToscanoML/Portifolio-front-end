@@ -41,6 +41,7 @@ export default function Home() {
               Abrir no navegador
           </a> */}
           <button 
+            type="submit"
             className="bg-red-300 text-white p-4 rounded"
             onSubmit={() => router.push("/")}
             >
