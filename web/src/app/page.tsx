@@ -4,15 +4,14 @@ import { AboutMe } from "@/components/AboutMe";
 import { Header } from "@/components/Header";
 import { NavBar } from "@/components/NavBar";
 import { ProjectsSession } from "@/components/ProjectsSession";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import Modal from "react-modal";
 
 // import webImage from "../public/web-development.png";
 
 export default function Home() {
-  const [modalIsOpen, setIsOpen] = useState(false);
-  const router = useRouter();
+  const [modalIsOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
@@ -40,12 +39,12 @@ export default function Home() {
             >
               Abrir no navegador
           </a> */}
-          <button 
-            className="bg-red-500 text-white p-4 rounded"
-            onClick={() => router.push('/')}
+          <Link 
+            className="bg-red-300 text-white p-4 rounded"
+            href="/"
             >
               Abrir no navegador
-          </button>
+          </Link>
       </Modal>
       <div className="sticky top-0 bg-white">
         <NavBar />
