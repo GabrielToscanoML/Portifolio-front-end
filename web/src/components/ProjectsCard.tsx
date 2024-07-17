@@ -33,7 +33,7 @@ export function ProjectsCard(props: Project) {
             <hr />
             <h3 className="text-2xl font-alt text-center mt-2">{props.category}</h3>
             <section className="flex flex-col items-center justify-evenly h-48">
-                <p className="px-2 text-center px-4 text-xl">{props.description}</p>
+                <p className="text-center px-4 text-xl">{props.description}</p>
                 <section className="flex w-full justify-evenly">
                     { props.deploy &&
                         <a href={props.deploy} target="_blank">
