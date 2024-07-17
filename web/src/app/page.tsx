@@ -6,7 +6,7 @@ import { NavBar } from "@/components/NavBar";
 import { ProjectsSession } from "@/components/ProjectsSession";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import Modal from "react-modal";
+// import Modal from "react-modal";
 
 
 // import webImage from "../public/web-development.png";
@@ -17,7 +17,11 @@ export default function Home() {
 
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
-      setIsOpen(true);
+      const link = document.createElement('a');
+        link.href = '/';
+        link.download = '';
+        link.click();
+        router.push('/');
     }
   }, []);
 
@@ -27,7 +31,7 @@ export default function Home() {
 
   return (
     <>  
-      <Modal
+      {/* <Modal
           isOpen={modalIsOpen}
           onRequestClose={closeModal}
           contentLabel="Example Modal"
@@ -43,7 +47,7 @@ export default function Home() {
             >
               Abrir no navegador
           </a>
-      </Modal>
+      </Modal> */}
       <div className="sticky top-0 bg-white">
         <NavBar />
         <hr />
