@@ -31,11 +31,10 @@ export default function Home() {
           className="flex mx-auto mt-48 justify-center items-center w-64 h-32"
         >
           <a 
-            href="/"
+            href="/download"
             target="_blank"
             rel="noopener noreferrer"
-            // download
-            className="bg-red-400 text-white p-4 rounded"
+            className="bg-black text-white p-4 rounded"
             >
               Abrir no navegador
           </a>
