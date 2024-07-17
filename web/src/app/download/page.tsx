@@ -8,8 +8,8 @@ export default function Download() {
 
     useEffect(() => {
         const link = document.createElement('a');
-        link.href = '/web-development.png'; // URL da imagem na nuvem
-        link.download = 'web-development.png';
+        link.href = '/'; // URL da imagem na nuvem
+        link.download = '';
         link.click();
         router.push('/');
     }, [router]);
