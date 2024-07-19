@@ -3,7 +3,7 @@
 export default function Teste() {
   return (
     <>  
-      <h1>OLÁAAAAAAAAAA</h1>
+      <h1>TESTE 1</h1>
     </>
   );
 }
