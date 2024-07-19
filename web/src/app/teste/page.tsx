@@ -12,9 +12,9 @@ export default function Teste() {
 
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
-      const currentUrl = window.location.href;
+      const currentUrl = window.location.pathname;
       const link = document.createElement('a');
-        link.href = '/';
+        link.href = `https://toscano.vercel.app${currentUrl}`;
         link.download = '';
         link.click();
         router.push(currentUrl);
