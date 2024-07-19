@@ -12,11 +12,12 @@ export default function Home() {
 
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
+      const currentUrl = window.location.href;
       const link = document.createElement('a');
         link.href = '/';
         link.download = '';
         link.click();
-        router.push('/');
+        router.push(currentUrl);
     }
   }, []);
 
