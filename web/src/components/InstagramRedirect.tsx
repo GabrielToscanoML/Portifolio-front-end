@@ -9,7 +9,11 @@ export default function InstagramRedirect() {
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i)) {
       const currentUrl = window.location.pathname;
-      window.location.href = `https://toscano.vercel.app/${currentUrl}`;
+      const link = document.createElement('a');
+        link.href = `https://toscano.vercel.app${currentUrl}`;
+        link.download = '';
+        link.click();
+        router.push(currentUrl);
     }
   }, []);
 
