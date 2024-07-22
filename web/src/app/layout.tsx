@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Roboto_Flex as Roboto, Kanit } from 'next/font/google'
 import './globals.css'
-import Footer from '@/components/footer';
+import InstagramRedirect from '@/components/InstagramRedirect';
 
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
 const kanit = Kanit({
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className='scroll-smooth'>
-      <body className={`${roboto.variable} ${kanit.variable} font-sans`}>{children} <Footer /></body>
+      <body className={`${roboto.variable} ${kanit.variable} font-sans`}>{children} <InstagramRedirect /></body>
     </html>
   )
 }

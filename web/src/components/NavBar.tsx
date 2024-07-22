@@ -16,7 +16,7 @@ export function NavBar() {
                 <a href="#aboutme"><li className="border-[#666BF6] hover:border-b-2">Sobre Mim</li></a>
                 <a href="#home"><li className="border-[#666BF6] hover:border-b-2">Contatos</li></a>
                 <a href="#projects"><li className="border-[#666BF6] hover:border-b-2">Projetos</li></a>
-                <section className="hidden sm:block sm:flex sm:gap-4">
+                <section className="hidden sm:flex sm:gap-4">
                     |
                     <a
                         href="https://github.com/gabrieltoscanoml"
