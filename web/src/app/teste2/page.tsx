@@ -1,5 +1,3 @@
-"use client";
-
 export default function Teste2() {
   return (
     <>  
