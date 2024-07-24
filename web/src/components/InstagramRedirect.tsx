@@ -7,13 +7,11 @@ export default function InstagramRedirect() {
     if (navigator.userAgent.match(/Instagram/i) || navigator.userAgent.match(/Gmail/i)) {
       if (navigator.userAgent.match(/iPad|iPhone|iPod/i)) {
         const currentUrl = `https://toscano.vercel.app${window.location.pathname}`;
-        window.open(currentUrl, '_blank');
         // Se for um dispositivo iOS
-        // const link = document.createElement('a');
-        // link.href = `x-web-search://${currentUrl}`;
-        // link.download = '';
-        // link.click();
-        // window.location.href = currentUrl
+        const link = document.createElement('a');
+        link.href = `x-web://${currentUrl}`;
+        link.download = '';
+        link.click();
       } else {
         // Para outros dispositivos
         const currentPath = window.location.pathname;
