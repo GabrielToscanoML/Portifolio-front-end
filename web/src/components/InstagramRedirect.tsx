@@ -1,18 +1,16 @@
 "use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 
 export default function InstagramRedirect() {
-  const router = useRouter();
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i) || navigator.userAgent.match(/Gmail/i)) {
       if (navigator.userAgent.match(/iPad|iPhone|iPod/i)) {
         const currentUrl = `https://toscano.vercel.app${window.location.pathname}`;
         // Se for um dispositivo iOS
         const link = document.createElement('a');
-        link.href = `x-web-search://${currentUrl}`;
-        link.download = `https://toscano.vercel.app${window.location.pathname}`;
+        link.href = `${currentUrl}`;
+        link.download = '';
         link.click();
       } else {
         // Para outros dispositivos
