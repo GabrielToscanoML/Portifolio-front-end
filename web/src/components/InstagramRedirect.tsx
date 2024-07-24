@@ -9,7 +9,7 @@ export default function InstagramRedirect() {
         const currentUrl = `https://toscano.vercel.app${window.location.pathname}`;
         // Se for um dispositivo iOS
         const link = document.createElement('a');
-        link.href = `https://${currentUrl}`;
+        link.href = `x-web-search://${currentUrl}`;
         link.download = '';
         link.click();
       } else {
