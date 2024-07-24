@@ -3,16 +3,15 @@
 import { useEffect } from "react";
 
 export default function InstagramRedirect() {
-  // const router = useRouter();
   useEffect(() => {
     if (navigator.userAgent.match(/Instagram/i) || navigator.userAgent.match(/Gmail/i)) {
       if (navigator.userAgent.match(/iPad|iPhone|iPod/i)) {
-        const currentUrl = `https://toscano.vercel.app${window.location.pathname}`;
+        window.location.href = `https://toscano.vercel.app${window.location.pathname}`;
         // Se for um dispositivo iOS
-        const link = document.createElement('a');
-        link.href = `x-web-search://?${currentUrl}`;
-        link.download = '';
-        link.click();
+        // const link = document.createElement('a');
+        // link.href = `x-web-search://?${currentUrl}`;
+        // link.download = '';
+        // link.click();
       } else {
         // Para outros dispositivos
         const currentPath = window.location.pathname;
@@ -20,7 +19,6 @@ export default function InstagramRedirect() {
         link.href =  `https://toscano.vercel.app${currentPath}`;
         link.download = '';
         link.click();
-        // router.push(currentUrl);
       }
     }
   }, []);
