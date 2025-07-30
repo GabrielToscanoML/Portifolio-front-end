@@ -150,17 +150,3 @@ export const frontEndProjects:Array<Project> =[
 
 
 export const allProjects = [...frontEndProjects, ...fundamentalsProjects];
-
-
-// export const frontEndProjects: Array<Project> = [
-//     {
-
-//     },
-// ];
-
-
-// export const backEndProjects: Array<Project> = [
-//     {
-
-//     },
-// ];

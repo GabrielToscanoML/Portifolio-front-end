@@ -6,86 +6,86 @@ import { HardSkills } from '@/types/HardSkill';
 
 export const hardSkills: Array<HardSkills> = [
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-1.svg',
+        imagePath: '/images/hardSkills/typescript.svg',
         name: 'TypeScript'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-2.svg',
+        imagePath: '/images/hardSkills/javascript.svg',
         name: 'JavaScript'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-3.svg',
+        imagePath: '/images/hardSkills/reactjs.svg',
         name: 'React'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-4.svg',
+        imagePath: '/images/hardSkills/nextjs.svg',
         name: 'NextJS'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-5.svg',
+        imagePath: '/images/hardSkills/nodejs.svg',
         name: 'NodeJS'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-6.svg',
+        imagePath: '/images/hardSkills/html5.svg',
         name: 'HTML5'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-7.svg',
+        imagePath: '/images/hardSkills/css.svg',
         name: 'CSS'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-8.svg',
+        imagePath: '/images/hardSkills/tailwindcss.svg',
         name: 'TailwindCSS'
     },
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/hard-skill-9.png?raw=true',
+        imagePath: '/images/hardSkills/jest.png',
         name: 'Jest'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-10.svg',
+        imagePath: '/images/hardSkills/docker.svg',
         name: 'Docker'
     },
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/hard-skill-11.png?raw=true',
+        imagePath: '/images/hardSkills/mysql.png',
         name: 'MySQL'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/hard-skill-12.svg',
+        imagePath: '/images/hardSkills/express.svg',
         name: 'Express'
     },
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/hard-skill-13.png?raw=true',
+        imagePath: '/images/hardSkills/sequelize.png',
         name: 'Sequelize'
     },
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/hard-skill-14.png?raw=true',
+        imagePath: '/images/hardSkills/nodemon.png',
         name: 'Nodemon'
     },
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/hard-skill-15.png?raw=true',
+        imagePath: '/images/hardSkills/c.png',
         name: 'C'
     }
 ];
 
 export const Learning: Array<HardSkills> = [
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/learning-1.png?raw=true',
+        imagePath: '/images/hardSkills/angular.png',
         name: 'Angular'
     },
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/learning-2.png?raw=true',
+        imagePath: '/images/hardSkills/java.png',
         name: 'Java'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/learning-3.svg',
+        imagePath: '/images/hardSkills/springboot.svg',
         name: 'SpringBoot'
     },
     {
-        imagePath: 'https://raw.githubusercontent.com/GabrielToscanoML/image-storage/8126a88da663acf17c9ec31972b90ce9ff454bf8/assets/hardSkillIcons/learning-4.svg',
+        imagePath: '/images/hardSkills/python.svg',
         name: 'Python'
     },
     {
-        imagePath: 'https://github.com/GabrielToscanoML/image-storage/blob/main/assets/hardSkillIcons/learning-5.png?raw=true',
+        imagePath: '/images/hardSkills/mongodb.png',
         name: 'MongoDB'
     }
 ];
